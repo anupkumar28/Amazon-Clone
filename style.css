@@ -77,6 +77,34 @@ margin-left: 3px;
 .nav-search:hover {
     border: 2px solid#febd68;
 }
+
+/* nav-language */
+
+.nav-language{
+    width: auto;
+
+}
+
+.lang-select {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: white;
+    border: none;
+    width: 42px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.lang-select img {
+    width: 25px;
+}
+
+.lang-select :hover {
+    background-color: #0F1111;
+}
+/* nav-language */
+
 /* box4 */
 span{
     font-size: 0.7rem;
@@ -167,6 +195,52 @@ span{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+/* Scroll Product Section */
+
+.scroll-product {
+    width: 96%;
+    margin: 20px auto;  
+    background: white;
+    padding:20px;
+   
+   
+ }
+
+ .scroll-product .products {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: auto;
+
+ }
+.products::-webkit-scrollbar {
+    height: 8px;
+   
+}
+
+.products::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.products::-webkit-scrollbar-thumb {
+    border-radius: 10px;  
+}
+
+.products::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+}
+
+ .products img {
+    width: 200px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+ }
+
+ .scroll-product h3 {
+    margin-bottom: 20px;
+ }
+ 
 /* Footer */
 .footer{
     margin-top: 15px;
